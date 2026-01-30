@@ -1,0 +1,82 @@
+# ===================================
+# 📦 Dependências
+# ===================================
+node_modules/
+
+# ===================================
+# 🏗️ Build / Dist
+# ===================================
+dist/
+dist-ssr/
+*.local
+
+# ===================================
+# 🔐 Variáveis de Ambiente (CRÍTICO!)
+# ===================================
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ===================================
+# 🧪 Testes e Coverage
+# ===================================
+coverage/
+test_output.txt
+utf8_test_output.txt
+.nyc_output/
+
+# ===================================
+# 📝 Logs
+# ===================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===================================
+# 💻 IDEs e Editores
+# ===================================
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains (WebStorm, IntelliJ)
+.idea/
+*.iml
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===================================
+# 🖥️ Sistema Operacional
+# ===================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ===================================
+# 🚀 Outros
+# ===================================
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
